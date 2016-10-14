@@ -52,3 +52,12 @@ def logme(func):
 def sub(x, y):
     """Returns the difference between two numbers"""
     return x - y
+
+
+@logme
+def _sub(x, y, reverse=False):
+    """Returns the difference of two values and reverses them"""
+    return x - y if not reverse else y - x
+
+
+
