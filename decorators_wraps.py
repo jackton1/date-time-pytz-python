@@ -49,9 +49,9 @@ def logme(func):
 
 
 @logme
-def sub(x, y):
-    """Returns the difference between two numbers"""
-    return x - y
+def _add(x, y):
+    """Returns the additions between two numbers"""
+    return x + y
 
 
 @logme
